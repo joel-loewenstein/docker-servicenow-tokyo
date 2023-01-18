@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:7
 LABEL maintainer="christoph.dwertmann@vaultsystems.com.au"
 COPY glide-*.zip /opt
 RUN useradd servicenow && yum install -y java-1.8.0-openjdk-devel glibc.i686 && \
